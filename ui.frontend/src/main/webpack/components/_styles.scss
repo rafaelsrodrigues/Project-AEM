@@ -1,0 +1,15 @@
+.cmp-color__green {
+    color: green;
+}
+.cmp-color__blue {
+    color: blue;
+}
+​
+.cmp-border-box {
+    box-shadow: none;
+    transition: all .5s ease;
+    &:hover {
+        box-shadow: 0 0 5px #ccc;
+        border-radius: 5px;
+    }
+}

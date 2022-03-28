@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-03-28T10:41:00.618-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/page-404"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Page 404"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:lastModified="{Date}2022-03-28T10:05:19.453-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2022-03-28T10:04:55.417-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-28T10:05:44.810-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <image
+                        jcr:created="{Date}2022-03-28T10:21:37.256-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-28T10:22:01.737-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/image"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/Scarecrow.png"
+                        isDecorative="true"
+                        titleValueFromDAM="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="3"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="10"/>
+                        </cq:responsive>
+                    </image>
+                </container>
+                <container_400205798
+                    jcr:created="{Date}2022-03-28T10:07:48.307-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-28T10:07:56.765-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container">
+                    <titleerro
+                        jcr:created="{Date}2022-03-28T10:23:46.001-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-28T10:24:22.161-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/titleerro"
+                        title="I have bad news for you">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </titleerro>
+                    <texterro
+                        jcr:created="{Date}2022-03-28T10:23:50.186-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-28T10:24:39.393-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/texterro"
+                        message="The page you are looking for might be removed or is temporaly unavailable"/>
+                    <button
+                        jcr:created="{Date}2022-03-28T10:23:55.640-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-28T10:25:01.273-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Back to Homepage"
+                        sling:resourceType="wknd/components/button"/>
+                </container_400205798>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

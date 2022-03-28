@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-03-28T10:43:31.824-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/page-404"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2022-03-28T09:58:48.396-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T09:59:24.100-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/header/newheader">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="11"/>
+                </cq:responsive>
+            </experiencefragment>
+            <container
+                jcr:lastModified="{Date}2022-03-28T10:05:19.453-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2022-03-28T10:04:55.417-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-28T10:04:55.417-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="11"/>
+                    </cq:responsive>
+                </container>
+                <container_400205798
+                    jcr:created="{Date}2022-03-28T10:07:48.307-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-28T10:07:48.307-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="7"/>
+                    </cq:responsive>
+                </container_400205798>
+            </container>
+            <experiencefragment_1749306844
+                jcr:created="{Date}2022-03-28T09:59:32.599-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T10:00:44.941-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd/us/en/site/footer/newfooter">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="7"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="9"/>
+                </cq:responsive>
+            </experiencefragment_1749306844>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

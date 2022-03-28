@@ -246,7 +246,7 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2022-02-23T09:05:06.052-08:00"
+                    jcr:lastModified="{Date}2022-03-28T10:15:16.342-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
@@ -365,6 +365,26 @@
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_621510439640223>
+                <policy_1935991783473100
+                    jcr:lastModified="{Date}2022-03-28T10:07:15.784-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:WKND Sites Project - Content,group:WKND Sites Project - Form]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1935991783473100>
+                <policy_1936123953207000
+                    jcr:lastModified="{Date}2022-03-28T10:17:55.327-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="TextErro"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/wknd/components/button,/apps/wknd/components/texterro,/apps/wknd/components/titleerro]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1936123953207000>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
